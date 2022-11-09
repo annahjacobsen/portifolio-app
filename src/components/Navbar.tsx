@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../assets/f_logo.png";
+import image from "../assets/image.png";
 import { Link } from "react-scroll";
 
 export const Navbar = () => {
@@ -8,9 +8,9 @@ export const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#edede9] text-gray-700">
+    <div className="fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#edede9] text-gray-700">
       <div>
-        <img src={logo} alt="Logo" style={{ width: "50px" }} />
+        <img src={image} alt="Logo" style={{ width: "180px" }} />
       </div>
 
       <ul className="hidden md:flex ">
